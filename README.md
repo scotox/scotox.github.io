@@ -14,6 +14,4 @@
 ## 工作
 
 
-<!-- [markdown.css](https://raw.githubusercontent.com/jhildenbiddle/docsify-themeable/master/docs/markdown.md ':include') -->
-
-[markdown.css](https://gitee.com/scotnt/europa-story/raw/master/README.md ':include')
+[markdown.css](https://raw.githubusercontent.com/jhildenbiddle/docsify-themeable/master/docs/markdown.md ':include')
