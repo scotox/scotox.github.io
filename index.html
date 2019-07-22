@@ -23,29 +23,29 @@
     },
     name: '作妖记Ⅲ',
     repo: 'https://gitee.com/scotnt/scotnt',
-    loadSidebar: true,
+    // loadSidebar: true,
     //
     // homepage: 'README.md',
     // nameLink: '#/',
     //
     formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}',
     //
-    // plugins: [
-    //   function (hook, vm) {
-    //     var footer = [
-    //       '-EOF-',
-    //       '<hr/>',
-    //       '<footer>',
-    //       '<span>Powered by <a href="https://scotnt.gitee.io/">ZHI</a> &copy;2017.</span>',
-    //       '</footer>'
-    //     ].join('');
-    //
-    //     // 解析成 html 后调用。beforeEach 和 afterEach 支持处理异步逻辑
-    //     hook.afterEach(function (html) {
-    //       return html + footer
-    //     });
-    //   }
-    // ],
+    plugins: [
+      function (hook, vm) {
+        var footer = [
+          '-EOF-',
+          '<hr/>',
+          '<footer>',
+          '<span>Powered by <a href="https://scotnt.gitee.io/">ZHI</a> &copy;2017.</span>',
+          '</footer>'
+        ].join('');
+
+        // 解析成 html 后调用。beforeEach 和 afterEach 支持处理异步逻辑
+        hook.afterEach(function (html) {
+          return html + footer
+        });
+      }
+    ],
   }
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
