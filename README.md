@@ -13,3 +13,4 @@
 
 ## 工作
 
+![](https://gitee.com/scotnt/europa-story/raw/master/part1/chapter1/section1/Aphrodite.jpg)
