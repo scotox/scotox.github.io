@@ -6,6 +6,8 @@
 
 [《打乱顺序重读欧洲历史》](http://scotnt.gitee.io/europa-story/)
 
+[《打乱顺序重读欧洲历史》](/europa-story/)
+
 ## 美食
 
 ## 旅行
