@@ -1,5 +1,5 @@
 @echo off
 echo Æô¶¯ Docsify serve ...
 :start
-call docsify serve .
+call docsify serve ./docs
 @goto start
